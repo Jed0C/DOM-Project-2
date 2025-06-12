@@ -1,0 +1,27 @@
+.container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:150px;
+}
+
+#color-box{
+    width: 336px;
+    height: 336px;
+    background-color: blue;
+    border-radius: 50px;
+    position: relative;
+    right: 100px;
+}
+
+#change-color-btn{
+    position: relative;
+    right: 270px;
+    top:90px;
+    width: 200px;
+    height: 80px;
+    background-color: rgb(5, 40, 104);
+    color:rgb(214, 194, 15);
+    border-radius: 10px;
+    font-size: 22px;
+}
